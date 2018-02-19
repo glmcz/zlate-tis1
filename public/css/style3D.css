@@ -1,0 +1,57 @@
+/*#wrap {*/
+    /*perspective: 800px;*/
+    /*perspective-origin: 50% 100px;*/
+    /*background: white;*/
+/*}*/
+
+/*#cube {*/
+    /*position: relative;*/
+    /*margin: 0 auto;*/
+    /*height: 400px;*/
+    /*width: 400px;*/
+    /*-webkit-transition: -webkit-transform 2s linear;*/
+    /*-webkit-transform-style: preserve-3d;*/
+/*}*/
+
+/*.face {*/
+    /*position: absolute;*/
+    /*height: 360px;*/
+    /*width: 360px;*/
+    /*padding: 20px;*/
+    /*background-color: rgba(50, 50, 50, 0.7);*/
+/*}*/
+/*#cube .one  {*/
+    /*-webkit-transform: rotateX(90deg) translateZ(200px);*/
+/*}*/
+
+/*#cube .two {*/
+    /*-webkit-transform: translateZ(200px);*/
+/*}*/
+
+/*#cube .three {*/
+    /*-webkit-transform: rotateY(90deg) translateZ(200px);*/
+/*}*/
+
+/*#cube .four {*/
+    /*-webkit-transform: rotateY(180deg) translateZ(200px);*/
+/*}*/
+
+/*#cube .five {*/
+    /*-webkit-transform: rotateY(-90deg) translateZ(200px);*/
+/*}*/
+
+/*#cube .six {*/
+    /*-webkit-transform: rotateX(-90deg) translateZ(200px) rotate(180deg);*/
+/*}*/
+
+
+
+#menu { position: absolute; z-index: 10; width: 100%; }
+#menu ul { float: left; width: 50%; margin: 0; padding: 0; list-style: none; text-align: center; }
+#menu ul li{ display: inline-block; }
+#menu ul li a { display: block; padding: 5px 10px; background: rgba(0,0,0,0.8); color: #fff; text-decoration: none; }
+
+.polytate-pane { background-color: green;
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.6); -moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.6); box-shadow: inset 0 0 3px rgba(0,0,0,0.6); }
+.ajax { height: 100%; text-align: center; }
+.ajax span { font-size: 1.5em; padding: 50px; color:#fff;  background: green; }

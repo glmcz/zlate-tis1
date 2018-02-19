@@ -19,6 +19,10 @@ Route::get('/', [
     'uses' => 'IndexController@index',
     'as' => 'index.index']);
 
+Route::get('/polytate', [
+    'uses' => 'IndexController@polytate',
+    'as' => 'index.one']);
+
 
 Route::get('/post/{post}', [
     'uses' => 'IndexController@post',

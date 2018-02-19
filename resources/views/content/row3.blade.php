@@ -6,7 +6,7 @@
                 <ul class="list3">
                     @foreach($posts as $post)
 
-                    <li class="col-lg-6 col-md-6 col-sm-6">
+                    <li class="col-lg-3 col-md-3 col-sm-3">
                         <div class="box4">
                             <figure><img src='/storage/{{($post->image)}}' alt="images"></figure>
 

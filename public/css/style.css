@@ -217,12 +217,34 @@ header {
 .menuheader {
 	background: #545658;
 }
+.navbar-fixed-bottom-custom{
+	width: 100px;
+	margin: auto;
+	position: fixed;
+	right: 0;
+	left: 0;
+	border-width: 0 0 1px;
+	bottom: 0;
+	margin-bottom: 0;
+}
+
+
+.navbar-left-fixed {
+	width: 100px;
+	position: fixed;
+	background: green;
+	color: rebeccapurple;
+	border: none;
+	opacity: 0.8;
+	margin-top: 20%;
+}
 .tm_navbar {
-	position: relative;
+	display: inline-block;
 	padding: 26px 0 22px;
 	margin: 0;
-	background: none;
+	background: green;
 	border: none;
+	opacity: 0.8;
 }
 .tm_navbar .nav {
 	float: none;

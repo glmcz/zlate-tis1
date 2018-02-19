@@ -21,6 +21,11 @@ class IndexController extends Controller
         return view('index.index',compact('posts','categories'));
     }
 
+    public function polytate()
+    {
+        return view('index.one');
+    }
+
 
 
     public function post( Post $post)
